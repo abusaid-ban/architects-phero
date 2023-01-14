@@ -1,0 +1,81 @@
+/* universal common*/
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ............
+nav part design
+........... */
+.header{
+    background-color: #FFF4E7;
+}
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    column-gap:100px;
+    padding: 0 30px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    font-size: 18px;
+    list-style: none;
+    margin-left: 30px;
+    color: #424242;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* banner style */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    margin:0 430px;
+    padding: 0;
+}
+.banner-title2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    margin:0 230px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 0 226px 20px 226px;
+}
+
+.banner .btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.banner img {
+    width: 850px;
+    height: 450px;
+    margin:40px 110px;
+}

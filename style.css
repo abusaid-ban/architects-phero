@@ -6,13 +6,14 @@
 /* ............
 nav part design
 ........... */
-.header{
+.header {
     background-color: #FFF4E7;
 }
+
 .header nav {
     display: flex;
     justify-content: space-around;
-    column-gap:100px;
+    column-gap: 100px;
     padding: 0 30px;
 }
 
@@ -47,14 +48,15 @@ nav li a {
     font-size: 64px;
     font-weight: 700;
     color: #131313;
-    margin:0 430px;
+    margin: 0 430px;
     padding: 0;
 }
-.banner-title2{
+
+.banner-title2 {
     font-size: 64px;
     font-weight: 700;
     color: #131313;
-    margin:0 230px;
+    margin: 0 230px;
 
 }
 
@@ -65,7 +67,7 @@ nav li a {
     margin: 0 226px 20px 226px;
 }
 
-.banner .btn {
+.btn {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -77,5 +79,53 @@ nav li a {
 .banner img {
     width: 850px;
     height: 450px;
-    margin:40px 110px;
+    margin: 40px 110px;
+}
+
+/* ................
+section of feature style
+................. */
+.features-container {
+    margin-top: 60px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-left: 150px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.text-feature {
+    padding-right: 100px;
+}
+
+.text-feature .feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-title .span-1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-title .span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }

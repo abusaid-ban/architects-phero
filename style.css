@@ -143,6 +143,8 @@ section of feature style
 .sections {
     display: flex;
     justify-content: space-around;
+    margin-right: 40px ;
+    margin-left: 40px;
 }
 
 .vl {
@@ -189,6 +191,7 @@ section of feature style
     color: #727272;
     padding-right: 110px;
 }
+
 
 .image .button {
     position: relative;

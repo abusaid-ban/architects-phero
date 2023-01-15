@@ -1,6 +1,9 @@
 /* universal common*/
 * {
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* ............
@@ -74,6 +77,8 @@ nav li a {
     background: #FF900E;
     border-radius: 8px;
     padding: 15px;
+    margin: 10px 0;
+
 }
 
 .banner img {
@@ -151,6 +156,7 @@ section of feature style
     font-size: 45px;
     color: #131313;
     margin-top: 0;
+    
     padding-right: 100px;
     padding-left: 12px;
 }
@@ -161,6 +167,7 @@ section of feature style
     color: #727272;
     padding-left: 32px;
     margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 .facility-container {
@@ -186,8 +193,8 @@ section of feature style
 
 .image .button {
     position: relative;
-    bottom: 90px;
-    right: 60px;
+    bottom: 120px;
+    right: 70px;
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
@@ -199,6 +206,7 @@ section of feature style
 .experience {
     font-size: 25px;
     color: #FFFFFF;
+    padding-bottom: 100px;
 }
 
 /* some fact section style */
@@ -289,4 +297,60 @@ section of feature style
     color: #424242;
     background: #FFF4E7;
     border-radius: 8px;
+}
+/* media query for small device */
+@media only screen and (max-width:688px) {
+   .last-section,.footer{
+        display: none;
+    }
+    .header{
+        text-align: center;
+       
+        
+    }
+    
+   .header nav{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px ;
+   }
+   nav ul{
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+   }
+   .banner-title,.banner-title2{
+    align-items: center;
+    margin: 0 130px;
+   }
+   .banner img{
+      width: 500px;
+      height: 300px;
+     margin: 5px 0px;
+     position: center;
+     
+   }
+   .feature{
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: 70px;
+   }
+   .pictures{
+    grid-template-columns: repeat(1,1fr);
+    
+   }
+   .sections{
+    flex-direction: column;
+   }
+   .section-description{
+    margin-top: 40px;
+   }
+   .image .button {
+    position: relative;
+    top: 70px;
+    left: 170px;
+   }
+
+  
+    
 }

@@ -98,7 +98,7 @@ section of feature style
     display: flex;
     align-items: center;
     column-gap: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .pictures {
@@ -108,7 +108,7 @@ section of feature style
 }
 
 .text-feature {
-    padding-right: 100px;
+    padding-right: 70px;
 }
 
 .text-feature .feature-title {

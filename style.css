@@ -235,7 +235,13 @@ section of feature style
     border: 2px solid #FF900E;
     text-align: center;
     padding: 10px 30px;
+    transition: transform 5s ease .5s;
 
+}
+.icon:hover{
+    background-color: yellowgreen;
+    transform: translate(30%, 40%);
+   
 }
 
 .icon img {
@@ -359,6 +365,7 @@ section of feature style
         top: 70px;
         left: 170px;
     }
+    
 
     .icons {
         flex-direction: column;

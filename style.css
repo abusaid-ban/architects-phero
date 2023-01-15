@@ -259,6 +259,24 @@ section of feature style
     color: #727272;
     padding-top: 0;
 }
+/* extra section */
+.extra{
+    margin: 80px 40px 30px 40px;
+}
+.innovation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.innovation-title{
+    font-size: 32px;
+    padding-top: 30px;
+}
+.innovation-description{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
 
 /* footer part style */
 .footer {
@@ -383,6 +401,9 @@ section of feature style
     .facts-description {
         text-align: center;
         margin: 20px 150px 20px 150px;
+    }
+    .innovation{
+        flex-direction: column-reverse;
     }
 
     .footer-description {

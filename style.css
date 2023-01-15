@@ -51,7 +51,7 @@ nav li a {
     font-size: 64px;
     font-weight: 700;
     color: #131313;
-    margin: 0 430px;
+    margin: 0 300px;
     padding: 0;
 }
 
@@ -156,8 +156,7 @@ section of feature style
     font-size: 45px;
     color: #131313;
     margin-top: 0;
-
-    padding-right: 100px;
+     padding-right: 70px;
     padding-left: 12px;
 }
 

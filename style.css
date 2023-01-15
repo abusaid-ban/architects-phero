@@ -240,7 +240,7 @@ section of feature style
 }
 .icon:hover{
     background-color: yellowgreen;
-    transform: translate(30%, 40%);
+    transform: translate(20%, 20%);
    
 }
 
@@ -316,18 +316,16 @@ section of feature style
 }
 
 .copyright {
-   
-    font-weight: 400;
     font-size: 14px;
     color: #424242;
     background: #FFF4E7;
     border-radius: 8px;
     margin-bottom: 20px;
-    padding: 13px;
+    padding: 10px;
 }
 
 /* media query for small device */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:688px){
 
     .header {
         text-align: center;
@@ -419,7 +417,6 @@ section of feature style
     }
     .end-part{
        display: none;
-
     }
     
     

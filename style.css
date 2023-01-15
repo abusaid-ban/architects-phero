@@ -184,6 +184,23 @@ section of feature style
     padding-right: 110px;
 }
 
+.image .button {
+    position: relative;
+    bottom: 90px;
+    right: 60px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.experience {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
 /* some fact section style */
 .facts-title {
     font-weight: 700;
@@ -263,7 +280,7 @@ section of feature style
 
 .end-part {
     margin: 0px 400px;
-    
+
 }
 
 .copyright {

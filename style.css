@@ -156,7 +156,7 @@ section of feature style
     font-size: 45px;
     color: #131313;
     margin-top: 0;
-    
+
     padding-right: 100px;
     padding-left: 12px;
 }
@@ -288,69 +288,119 @@ section of feature style
 
 .end-part {
     margin: 0px 400px;
+    
 
 }
 
 .copyright {
+   
     font-weight: 400;
     font-size: 14px;
     color: #424242;
     background: #FFF4E7;
     border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 13px;
 }
+
 /* media query for small device */
 @media only screen and (max-width:688px) {
-   .last-section,.footer{
-        display: none;
-    }
-    .header{
-        text-align: center;
-       
-        
-    }
-    
-   .header nav{
-    flex-direction: column;
-    text-align: center;
-    padding-top: 30px ;
-   }
-   nav ul{
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-   }
-   .banner-title,.banner-title2{
-    align-items: center;
-    margin: 0 130px;
-   }
-   .banner img{
-      width: 500px;
-      height: 300px;
-     margin: 5px 0px;
-     position: center;
-     
-   }
-   .feature{
-    flex-direction: column;
-    row-gap: 30px;
-    margin-left: 70px;
-   }
-   .pictures{
-    grid-template-columns: repeat(1,1fr);
-    
-   }
-   .sections{
-    flex-direction: column;
-   }
-   .section-description{
-    margin-top: 40px;
-   }
-   .image .button {
-    position: relative;
-    top: 70px;
-    left: 170px;
-   }
 
-  
+    .header {
+        text-align: center;
+    }
+
+    .header nav {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    .banner-title,
+    .banner-title2 {
+        align-items: center;
+        margin: 0 130px;
+    }
+
+    .banner img {
+        width: 500px;
+        height: 300px;
+        margin: 5px 0px;
+        position: center;
+
+    }
+
+    .feature {
+        flex-direction: column;
+        row-gap: 30px;
+        margin-left: 70px;
+    }
+
+    .pictures {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+
+    .section-description {
+        margin-top: 40px;
+    }
+
+    .image .button {
+        position: relative;
+        top: 70px;
+        left: 170px;
+    }
+
+    .icons {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 250px;
+        row-gap: 10px;
+
+    }
+
+    .facts-title {
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .facts-description {
+        text-align: center;
+        margin: 20px 150px 20px 150px;
+    }
+
+    .footer-description {
+        margin: 20px 40px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .sponsors {
+        flex-direction: column;
+        row-gap: 5px;
+
+    }
+    .end-part{
+        margin-right: 700px;
+
+    }
+    .copyright{
+       padding-right: 20px;
+       
+    }
     
+
+
+
+
 }

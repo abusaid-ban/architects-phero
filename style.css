@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width:1440px;
+   
+}
 
 /* ............
 nav part design
@@ -191,6 +195,9 @@ section of feature style
     color: #727272;
     padding-right: 110px;
 }
+.image img{
+    width: 100%;
+}
 
 
 .image .button {
@@ -272,6 +279,9 @@ section of feature style
     align-items: center;
     gap:20px;
 }
+.innovation .image img{
+    width: 100%;
+}
 .innovation-title{
     font-size: 32px;
     padding-top: 30px;
@@ -332,6 +342,7 @@ section of feature style
 
     .header {
         text-align: center;
+        width: 100%;
     }
 
     .header nav {
@@ -389,7 +400,7 @@ section of feature style
     .icons {
         flex-direction: column;
         justify-content: center;
-        margin: 0 250px;
+        margin: 0 150px;
         row-gap: 10px;
 
     }

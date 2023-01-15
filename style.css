@@ -156,7 +156,7 @@ section of feature style
     font-size: 45px;
     color: #131313;
     margin-top: 0;
-     padding-right: 70px;
+    padding-right: 30px;
     padding-left: 12px;
 }
 
@@ -418,13 +418,10 @@ section of feature style
 
     }
     .end-part{
-        margin-right: 700px;
+       display: none;
 
     }
-    .copyright{
-       padding-right: 20px;
-       
-    }
+    
     
 
 
